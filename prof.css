@@ -1,0 +1,83 @@
+*{
+	font-family: 'Imprima', sans-serif;
+}
+.tabs{
+	width: auto ! important;
+	height: 100vh;
+	background: #225981;
+	padding-top: 2%;
+	position: fixed ! important;
+	padding-right: 0px ! important;
+	padding-left: 0px ! important;
+	align-items: center;
+}
+.tabs .affix div .iconify{
+	font-size: 48px;
+	color: white;
+	line-height: auto;
+}
+.tabs ul li span{
+	width: 70px;
+	height: auto;
+}
+.affix{
+	margin: auto;
+}
+.affix div{
+	padding: 10px;
+	height: 20%;
+	margin-bottom: 40px;
+}
+.affix div:hover{
+	background: #f7902759;
+	cursor: pointer;
+}
+
+
+/***  content  ***/
+
+.content{
+	padding-top: 4%;
+}
+form{
+	width: 100%;
+}
+form label{
+	width: 100%;
+}
+#search{
+	border-radius: 20px;
+	padding: 10px;
+	width: 100%;
+	border: 2px solid #7A7A7A;
+}
+
+.content div .iconify{
+	font-size: 36px;
+}
+.content div h6{
+	padding: 10px
+}
+.content div.col-md-3 .iconify{
+	color: #225981;
+	margin: 0 10px;
+	cursor: pointer;
+} 
+
+/*.profile{
+	width: 90%;
+}*/
+textarea{
+	width: 90%;
+	height: 150px;
+	border: none;
+	padding: 20px;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+}
+textarea:disabled{
+	background: #f7f7f7;
+}
+input:disabled{
+	background: #f7f7f7 ! important;
+}
